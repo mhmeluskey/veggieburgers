@@ -1,8 +1,22 @@
+body{
+    background-color: lightcoral;
+}
+
 img {
 
     height: 200px;
     width: 200px;
-    float: center;
-    position: relative;
+    border-radius: 25%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+#image {
+    float: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }

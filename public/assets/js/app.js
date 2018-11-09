@@ -18,6 +18,7 @@ $(function() {
         function() {
           console.log("changed ate to", newAte);
           // Reload the page to get the updated list
+          location.reload(); 
         
         }
       );
