@@ -1,0 +1,40 @@
+
+
+<h2>Veggieburgers that have been eaten</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if ate}}
+ {{> veggieburgers/veggieburger-block ate=true}}
+{{/if}}
+  {{/each}}
+</ul>
+
+
+<h2>Veggieburgers that have not been eaten</h2>
+<ul>
+  {{#each burgers}}
+    {{#unless ate}}
+      {{> veggieburgers/veggieburger-block ate=false}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+
+
+<h2>Add a Veggieburger!</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="vb">Veggieburger Name:</label>
+    <input type="text" id="vb" name="name">
+  </div>
+
+  <div class="form-group">
+    <label for="ate">Ate the burger?</label><br>
+    <input type="radio" name="ate" value="1" > Ate it!<br>
+    <input type="radio" name="ate" value="0"> Has not been eaten.
+  </div>
+
+  <button type="submit">Add Veggieburger</button>
+</form>
