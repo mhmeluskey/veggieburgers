@@ -1,3 +1,6 @@
+$(document).ready(function() {
+ $(".title").lettering();
+
 $(function() {
 
     $(".change").on("click", function(event) {
@@ -59,4 +62,4 @@ $(".create-form").on("submit", function(event) {
           });
       });
     });
-    
+  });

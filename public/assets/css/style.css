@@ -1,22 +1,95 @@
-body{
-    background-color: lightcoral;
-}
-
-img {
-
-    height: 200px;
-    width: 200px;
-    border-radius: 25%; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.jumbotron {
+ 
+    margin-bottom: 0px;
+    background-image: url('burgjum.png');
+    background-position: 0% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 
 }
 
-#image {
-    float: center; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+.title{
+    margin:auto;
+    font-family: 'Acme', sans-serif;
+    font-size: 70px; 
+
+    width: 300px; 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    line-height: .55em; 
+
 }
+
+span {
+    position: relative;
+}
+
+.char1 {
+ color: green; 
+ z-index: 5;
+ text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8); 
+
+}
+
+
+.char2 {
+    color: green; 
+    text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8); 
+    z-index: 3;
+}
+
+.char3 {
+    color: green; 
+    z-index: 2;
+    text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8); 
+}
+
+.char4 {
+    color: green; 
+    z-index: 5;
+    text-shadow: 0.05em 0.5em 0.2em rgba(10,10,10,0.8); 
+}
+
+.char5 {
+    color: green; 
+    z-index: 6;
+    text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8); 
+}
+
+.char6 {
+    color: green;
+    z-index: 0;
+    text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8);  
+}
+
+.char7 {
+   z-index: 1;
+   text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.8);  
+
+}
+.char8 {
+    z-index: 1;
+
+}
+.char9 {
+    z-index: 4;
+  
+}
+.char10 {
+    z-index: 1;
+}
+.char11 {
+    z-index: 4;
+}
+.char12 {
+    z-index: 1;
+}
+.char13 {
+    z-index: 1;
+}
+
+
+
