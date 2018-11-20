@@ -14,7 +14,6 @@
     margin:auto;
     font-family: 'Acme', sans-serif;
     font-size: 70px; 
-
     width: 300px; 
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -91,5 +90,21 @@ span {
     z-index: 1;
 }
 
+button {
+    border-bottom-color: black;
+    border-radius: 85%;
+}
 
-
+.tables {
+    border: solid 10px; 
+    margin: 10px; 
+    padding: 10px; 
+    font-family: 'Lato', sans-serif;
+    background: -moz-linear-gradient(top,  yellow 0%, white 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,yellow), color-stop(100%,white));
+	background: -webkit-linear-gradient(top,  yellow 0%,white 100%);
+	background: -o-linear-gradient(top,  yellow 0%,white 100%);
+	background: -ms-linear-gradient(top,  yellow 0%,white 100%);
+	background: linear-gradient(to bottom,  yellow 0%,white 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='yellow', endColorstr='white',GradientType=0 );
+}
